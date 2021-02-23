@@ -64,3 +64,11 @@ Feedback is always welcome, so if you have any to give on this challenge please 
 This challenge is completely free. Please share it with anyone who will find it useful for practice.
 
 **Have fun building!** 🚀
+
+----------
+
+## My Thinking
+I am using grid to construct the card.
+## My resources
+    - https://css-tricks.com/centering-css-complete-guide/ - this guide is a life saver
+    - https://css-tricks.com/snippets/css/complete-guide-grid/ - how to use Grid
