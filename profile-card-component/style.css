@@ -22,6 +22,16 @@ h1, h2, h3, h4, h5, h6, p{
     font-size: 18px;
     font-family: 'Kumbh Sans', sans-serif;
     margin: 0px;
+	text-align: center;
+}
+
+p{
+	color: var(--gray);
+	font-size: 14px;
+}
+
+h2 span{
+	color: var(--gray);
 }
 
 .attribution {
@@ -38,6 +48,13 @@ h1, h2, h3, h4, h5, h6, p{
 }
 
 /* background */
+
+body{
+	background-image: url(images/bg-pattern-top.svg);
+	background-position: -30% 230%;
+	background-repeat: no-repeat;
+}
+
 #top-img{
 	position: fixed;
 	left: 0;
@@ -68,9 +85,11 @@ h1, h2, h3, h4, h5, h6, p{
 }
 
 #profile {
-    width: 90%;
+    width: 100%;
     border-radius: 100%;
     border: 6px solid white;
+	object-fit: cover;
+    object-position: center center;
 }
 
 .profile-image {
@@ -80,8 +99,8 @@ h1, h2, h3, h4, h5, h6, p{
 	grid-row-end: 4;
 }
 .header {
-	grid-column-start: 3;
-	grid-column-end: 6;
+	grid-column-start: 1;
+	grid-column-end: 8;
 	grid-row-start: 5;
 	grid-row-end: 5;
 }
@@ -109,8 +128,7 @@ h1, h2, h3, h4, h5, h6, p{
     width: fit-content;
     background-color: white;
 	border-radius: 20px;
-    margin: 10px;
-	grid-template-columns: 10px 100px 10px 108px 10px 100px 10px;
+	grid-template-columns: 10px 100px 10px 100px 10px 100px 10px;
 	grid-template-rows: 90px 60px 60px 20px 55px 20px 35px 20px;
 	position: absolute;
 	top: 50%;
