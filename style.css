@@ -2,7 +2,7 @@
 	box-sizing: border-box;
 }
 
-.headder{
+.header{
 	display: flex;
 	justify-content: center;
 }
