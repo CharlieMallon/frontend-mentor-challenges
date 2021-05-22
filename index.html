@@ -1,32 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<meta charset="UTF-8" />
-		<link rel="stylesheet" href="style.css" />
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!-- Google Fonts -->
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 		<title>Frontend Mentor Repo</title>
+		<link rel="stylesheet" href="style.css"/>
 	</head>
 	<body>
-		<div class="row header">
+		<section class="header">
 			<h1>Front End Mentor Challenges</h1>
-		</div>
-		<div class="row card-container">
-			<div class="card content">
-				<img src="profile-card-component\design\desktop-preview.jpg" alt="profile-card-component aim" class="card-image">
-				<a href="profile-card-component/index.html" class="card-link">Profile Card Component</a>
-			</div>
-			<div class="card content">
-				<img src="faq-accordion-card\design\active-states.jpg" alt="faq-accordion-card aim" class="card-image">
-				<a href="faq-accordion-card/index.html" class="card-link"></a>Faq Accordion Card</a>
-			</div>
+		</section>
+		<section class="container">
+			<a class="card" href="profile-card-component/index.html">
+				<div class="outer-card">
+					<div class="inner-card">
+						<img src="profile-card-component\design\desktop-preview.jpg" alt="profile-card-component aim">
+						<h2>Profile Card Component</h2>
+					</div>
+				</div>
+			</a>
+			<a class="card" href="faq-accordion-card/index.html">
+				<div class="outer-card">
+					<div class="inner-card">
+						<img src="faq-accordion-card\design\active-states.jpg" alt="faq-accordion-card aim" class="card-image">
+						<h2>Faq Accordion Card</h2>
+					</div>
+				</div>
+			</a>
 			<div class="card placeholder"></div>
 			<div class="card placeholder"></div>
 			<div class="card placeholder"></div>
+		</section>
+		<section class="footer">
 			<div class="attribution">
 				Challenges by
 				<a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a
 				>. Coded by <a href="https://github.com/CharlieMallon">Charlie Mallon</a>.
 			</div>
-		</div>
+		</section>
 	</div>
 	</body>
 </html>

@@ -1,62 +1,98 @@
 * {
 	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
 }
 
-.header{
-	display: flex;
-	justify-content: center;
+/* ==================== mobile ==================== */
+
+.header {
+	width: 100%;
+	text-align: center;
 }
 
-.card-container{
-	display: flex;
-	flex-wrap: wrap;
-	align-items: center;
+.container {
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
 }
 
-.card{
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-    width: 14%;
-	margin-left: 5%;
-}
-
-.content{
-    height: 250px;
-    border: 1px solid black;
+.card {
+	padding: 1rem;
+	margin: 10px 0 0;
+	display: block;
+	text-decoration: none;
+	color: black;
+	height: 250px;
+	border: 1px solid black;
 }
 
 .placeholder {
 	height: 0px;
+	border: none;
 }
 
-.card:nth-child(5n){
-	margin-right: 5%;
+.outer-card {
+	width: 100%;
+	height: 100%;
 }
 
-.card-image{
-	width: 150px;
-    height: auto;
-    padding: 10px;
+.inner-card {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin: 0 auto;
+	width: 100%;
+	height: 100%;
 }
 
-.card-link{
-	text-decoration: none;
-	color: black;
+.card img {
+	max-width: 150px;
+	height: auto;
 	padding: 10px;
 }
 
-.attribution {
-	font-size: 11px;
+.card h2 {
+	text-align: center;
+	text-decoration: none;
+	font-size: 18px;
+}
+
+.footer {
+	background-color: white;
 	position: fixed;
 	left: 0;
 	bottom: 0;
 	width: 100%;
 	height: 20px;
+}
+
+.attribution {
+	font-size: 11px;
 	text-align: center;
 }
 
 .attribution a {
 	color: var(--linkBlue);
+}
+
+/* ==================== iPad portrait ==================== */
+@media (min-width: 768px) {
+	.container {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.card {
+		width: 31%;
+		margin: 1%;
+	}
+}
+
+/* ==================== iPad landscape & Desktop ==================== */
+@media (min-width: 1024px) {
+	.card {
+		width: 23%;
+		margin: 1%;
+	}
 }
