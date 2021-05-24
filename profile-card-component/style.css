@@ -30,9 +30,17 @@ p{
 	font-size: 14px;
 }
 
+/* specific changes - text */
+
 h2 span{
 	color: var(--gray);
 }
+
+.header p {
+	padding-top: 10px;
+}
+
+/* Back Button & Attribution */
 
 .back{
 	font-size: 11px;
@@ -125,6 +133,13 @@ h2 span{
 	grid-column-end: 8;
 	grid-row-start: 5;
 	grid-row-end: 5;
+}
+.line{
+	grid-column-start: 1;
+	grid-column-end: 8;
+	grid-row-start: 6;
+	grid-row-end: 6;
+	border-top: 1px solid var(--gray);
 }
 .followers {
 	grid-column-start: 2;
