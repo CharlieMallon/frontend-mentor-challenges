@@ -1,6 +1,8 @@
 /* colours */
 
 :root {
+	/* Button Colour */
+	--button: white;
 	/* primary */
 	--cyan: hsl(185, 75%, 39%);
 	--darkBlue: hsl(229, 23%, 23%);
@@ -60,14 +62,14 @@ h2 span{
 	justify-content: center;
 	height: 20px;
 	width: 30px;
-	border: 1px solid white;
+	border: 1px solid var(--button);
 	border-radius: 5px;
 	margin: 5px;
 	text-decoration: none;
 }
 
 .back p {
-	color: white;
+	color: var(--button);
 	font-size: 11px;
 }
 
@@ -78,7 +80,7 @@ h2 span{
 	justify-content: center;
 	height: 40px;
 	width: 100px;
-	border: 1px solid white;
+	border: 1px solid var(--button);
 	border-radius: 5px;
 	margin: 5px;
 	text-decoration: none;
@@ -86,7 +88,7 @@ h2 span{
 
 .aim p {
 	text-decoration: underline;
-	color: white;
+	color: var(--button);
 	font-size: 11px;
 	padding-bottom: 5px;
 }
@@ -103,7 +105,7 @@ h2 span{
 
 .aim-links a {
 	text-decoration: none;
-	color: white;
+	color: var(--button);
 	font-size: 11px;
 }
 
