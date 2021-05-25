@@ -1,5 +1,6 @@
 * {
 	margin: 0px;
+	font-size: 12px;
 }
 
 /* colours */
@@ -9,8 +10,18 @@
 	--button: black;
 	/* primary */
 	--linkBlue:  hsl(228, 45%, 44%);
+		/* text */
+		--Verydarkdesaturatedblue: hsl(238, 29%, 16%);
+		--Softred: hsl(14, 88%, 65%);
+		/* Background gradient: */
+		--Softviolet: hsl(273, 75%, 66%);
+		--Softblue: hsl(240, 73%, 65%);
 	/* neutral */
-
+		/* Text */
+		--Verydarkgrayishblue: hsl(237, 12%, 33%);
+		--Darkgrayishblue: hsl(240, 6%, 50%);
+		/* Dividers */
+		--lightgrayishblue: hsl(240, 5%, 91%);
 }
 
 /* =========== Back Button, Aim Links & Attribution =========== */
@@ -93,8 +104,8 @@
 	color: var(--linkBlue);
 }
 
-/* ===== Start ===== */
+/* Mobile: 375px */
 
-.content {
-	padding-top: 60px;
-}
+
+
+/* Desktop: 1440px */
