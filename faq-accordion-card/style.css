@@ -1,6 +1,7 @@
 * {
 	margin: 0px;
 	font-size: 12px;
+	font-family: Kumbh Sans;
 }
 
 /* colours */
@@ -106,6 +107,69 @@
 
 /* Mobile: 375px */
 
+h1 {
+	font-size: 2rem;
+}
 
+body {
+	background-image: linear-gradient( var(--Softviolet), var(--Softblue) );
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.container{
+	background: white;
+	width: 300px;
+	height: auto;
+	border-radius: 20px;
+	padding: 20px;
+}
+
+.image {
+	position: relative;
+	height: 104px;
+}
+
+#top{
+	position: absolute;
+	z-index: 40;
+	top: -122%;
+}
+
+#bottom	{
+	position: absolute;
+	z-index: 30;
+	left: 0;
+    right: 0;
+    height: 104px;
+    width: 100%;
+    object-fit: contain;
+    top: -20%;
+}
+
+.title {
+	padding-bottom: 10px;
+	text-align: center;
+}
+
+.faq {
+	padding: 10px 0px;
+	border-bottom: 1px solid black;
+}
+
+.question {
+	padding-bottom: 10px;
+	font-weight: 400;
+}
+
+.question span {
+	text-align: end;
+}
+
+.answer {
+	padding-right: 20px;
+}
 
 /* Desktop: 1440px */
